@@ -1,0 +1,18 @@
+GET http://localhost:3001/allProducts
+###
+POST http://localhost:3001/login
+Content-Type: application/json
+{
+     "name":"kyle",
+     "lastName":"cohen",
+     "userName":"kyle123",
+     "password":"password"
+}
+###
+http://localhost:3001/createUsers
+{
+     "name":"elad",
+     "lastName":"eeeeee",
+     "userName":"ewasdad",
+     "password":"12312312321"
+}
